@@ -25,3 +25,4 @@ def get_largest_prime_factor(n):  # n = number looking for largest factor of
   
 print(get_largest_prime_factor(600851475143))
     # --> 6857.0
+print(get_largest_prime_factor(3.2 * 10e3))
