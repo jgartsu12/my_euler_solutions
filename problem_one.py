@@ -6,7 +6,10 @@ If we list all the natural numbers below 10 that are multiples of 3 or 5, we get
 
 Find the sum of all the multiples of 3 or 5 below 1000.
 """
+answer = [i for i in range(1, 1000) if i % 3 == 0 or i % 5 == 0]
+print (sum(answer)) # --> 233168
 
+'''
 multiples_range = range(1,1000)
 
 multiples_of_three_or_five = []
@@ -21,6 +24,7 @@ print(multiples_of_three_or_five)
 sum_of_multiples = sum(multiples_of_three_or_five)
 print(sum_of_multiples)
 # 233168
+'''
 
 
 
